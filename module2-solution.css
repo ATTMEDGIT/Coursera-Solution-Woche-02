@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    color: black;
+    text-align: center;
+}
+
+.para{
+    position: relative;
+    padding: 10px;
+    margin: 10px auto;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    height: 255px;
+    background-color: gray;
+    border: 2px solid black;
+    
+}
+
+p{
+    padding: 10px;
+
+}
+
+
+
+.suchi {
+    position: absolute;
+    right: 0px;
+    top: -0px;
+    background-color: rgb(238, 205, 156);
+    text-align: center;
+    width: 120px;
+    padding: 3px;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black; ;
+
+
+}
+
+.Beef{
+    right: 0px;
+    top: 0;
+    color: white;
+    position: absolute;
+    background-color: red;
+    text-align: center;
+    width: 120px;
+    padding: 3px;
+    margin-right: auto;
+    margin-left: auto;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black; ;
+
+}
+
+.cheeken{
+    
+    right: 0px;
+    top: 0;
+    position: absolute;
+    background-color: rgb(194, 121, 121);
+    text-align: center;
+    width: 120px;
+    padding: 3px;
+    margin-right: auto;
+    margin-left: auto;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black; 
+    
+} 
+
+.row{
+width: 100%;
+}
+
+
+@media   (min-width: 991px){
+    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5,
+    .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10,
+    .col-lg-11, .col-lg-12{
+
+        float: left;
+    
+    }
+
+.col-lg-4{
+    width: 33.33%;
+}
+
+}
+
+
+@media(min-width: 768px) and (max-width: 990px) {
+    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5,
+    .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10,
+    .col-md-11, .col-md-12{
+
+        float: left;
+        
+    }
+
+    .col-md-6{
+        width: 50%;
+
+
+    }
+
+    .col-md-12{
+        width: 100%;
+        
+    }
+
+
+} 
+
+
